@@ -115,7 +115,7 @@
   "printers": {
     "default": {
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"obj_1_clip peugeot 3008.STL_PETG_1h32m.gcode\",\"job_id\":\"000151\",\"object_height\":12.0,\"start_time\":1795715364.5064268}",
+        "last_occupied": "",
         "outlines": "{\"filename\":\"Куб_PETG_8m1s.gcode\",\"objects\":[]}"
       },
       "belt_tension": {
