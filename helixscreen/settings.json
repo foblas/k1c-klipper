@@ -1,0 +1,139 @@
+{
+  "active_printer_id": "default",
+  "config_version": 35,
+  "dark_mode": true,
+  "display": {
+    "bed_mesh_render_mode": 0,
+    "dim_brightness": 30,
+    "dim_sec": 600,
+    "drm_device": "",
+    "gcode_render_mode": 0,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
+    "sleep_sec": 3600,
+    "animations_enabled": false
+  },
+  "gcode_viewer": {
+    "tube_sides": 4
+  },
+  "input": {
+    "calibration": {
+      "a": 1.0,
+      "b": 0.0,
+      "c": 0.0,
+      "d": 0.0,
+      "e": 1.0,
+      "f": 0.0,
+      "valid": false
+    },
+    "long_press_time": 500,
+    "scroll_limit": 10,
+    "scroll_throw": 25,
+    "touch_device": "",
+    "touch_range": {
+      "max_x": 0,
+      "max_y": 0,
+      "min_x": 0,
+      "min_y": 0,
+      "swap_axes": false,
+      "valid": false
+    }
+  },
+  "log_path": "/tmp/helixscreen.log",
+  "printers": {
+    "default": {
+      "default_macros": {
+        "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
+        "load_filament": {
+          "gcode": "LOAD_FILAMENT",
+          "label": "Load"
+        },
+        "macro_1": {
+          "gcode": "HELIX_CLEAN_NOZZLE",
+          "label": "Clean Nozzle"
+        },
+        "macro_2": {
+          "gcode": "HELIX_BED_MESH_IF_NEEDED",
+          "label": "Bed Level"
+        },
+        "unload_filament": {
+          "gcode": "UNLOAD_FILAMENT",
+          "label": "Unload"
+        }
+      },
+      "extra_sensors": {},
+      "fans": {
+        "chamber": "",
+        "exhaust": "",
+        "hotend": "heater_fan hotend_fan",
+        "part": "fan",
+        "aux": "output_pin fan2",
+        "names": {
+          "output_pin fan0": "Part",
+          "output_pin fan1": "Chamber Exhaust",
+          "output_pin fan2": "Auxiliary"
+        }
+      },
+      "hardware": {
+        "expected": [],
+        "last_snapshot": {},
+        "optional": []
+      },
+      "heaters": {
+        "bed": "heater_bed",
+        "hotend": "extruder"
+      },
+      "leds": {
+        "selected": [],
+        "strip": ""
+      },
+      "moonraker_api_key": false,
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": 7125,
+      "motion": {
+        "bed_map_clearance": 5,
+        "coarse_inner": 1.0,
+        "coarse_outer": 10.0,
+        "fine_inner": 0.10000000149011612,
+        "fine_outer": 1.0,
+        "jog_speed_xy": 6000,
+        "jog_speed_z": 600,
+        "layout": 0,
+        "show_actual_position": false,
+        "turbo_inner": 10.0,
+        "turbo_outer": 50.0
+      },
+      "temp_sensors": {
+        "bed": "heater_bed",
+        "hotend": "extruder",
+        "chamber": "temperature_sensor chamber_temp"
+      },
+      "filament_sensors": {
+        "master_enabled": true,
+        "sensors": [
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor filament_sensor",
+            "role": "runout",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor filament_sensor_2",
+            "role": "none",
+            "type": "switch"
+          }
+        ]
+      },
+      "capability_overrides": {
+        "speaker": "disable"
+      },
+      "wizard_completed": false
+    },
+    "show_printer_switcher": false
+  },
+  "theme": {
+    "preset": 0
+  },
+  "preset": "k1c"
+}
