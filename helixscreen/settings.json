@@ -77,7 +77,7 @@
   "printers": {
     "default": {
       "bed_occupancy": {
-        "last_occupied": "",
+        "last_occupied": "{\"filename\":\"Calibration XYZ Cube_PETG_16m19s.gcode\",\"job_id\":\"00014F\",\"object_height\":20.0,\"start_time\":1795709303.8975153}",
         "outlines": "{\"filename\":\"Calibration XYZ Cube_PETG_16m19s.gcode\",\"objects\":[]}"
       },
       "belt_tension": {
@@ -204,20 +204,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 0.48777777777776254
+            "used_h": 0.569999999999995
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 0.48777777777776254
+            "used_h": 0.569999999999995
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 0.48777777777776254
+            "used_h": 0.569999999999995
           }
         },
-        "total_h": 0.48777777777776254
+        "total_h": 0.569999999999995
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
