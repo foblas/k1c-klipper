@@ -86,6 +86,9 @@
         },
         "part": "output_pin fan0"
       },
+      "filament": {
+        "auto_cooldown": false
+      },
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
