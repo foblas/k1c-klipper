@@ -13,7 +13,8 @@
     "gpu_blur_blocked": false,
     "rotate": 270,
     "rotation_probed": true,
-    "sleep_sec": 3600
+    "sleep_sec": 3600,
+    "time_format": 1
   },
   "gcode_viewer": {
     "tube_sides": 4
