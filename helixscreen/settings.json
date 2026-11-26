@@ -206,7 +206,7 @@
     },
     "show_printer_switcher": false
   },
-  "telemetry_enabled": false,
+  "telemetry_enabled": true,
   "theme": {
     "preset": 0
   },
