@@ -52,6 +52,7 @@
         "last_occupied": "{\"filename\":\"40x20_profile_PETG_1h22m.gcode\",\"job_id\":\"00014D\",\"object_height\":40.0,\"start_time\":1795553503.694519}"
       },
       "capability_overrides": {
+        "led": "disable",
         "speaker": "disable"
       },
       "default_macros": {
