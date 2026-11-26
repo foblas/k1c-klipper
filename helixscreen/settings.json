@@ -320,6 +320,10 @@
   "theme": {
     "preset": 0
   },
+  "tour": {
+    "completed": true,
+    "last_seen_version": 2
+  },
   "wifi_country_last_seen": "GB",
   "wizard_completed": true
 }
