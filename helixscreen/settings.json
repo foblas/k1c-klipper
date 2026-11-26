@@ -78,6 +78,7 @@
           "label": "Unload"
         }
       },
+      "enclosure_style": 1,
       "extra_sensors": {},
       "fans": {
         "aux": "output_pin fan2",
