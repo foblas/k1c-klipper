@@ -147,7 +147,7 @@
             "temperature_sensor mcu_temp",
             "temperature_sensor chamber_temp"
           ],
-          "timestamp": "2026-11-26T14:29:37Z"
+          "timestamp": "2026-11-26T14:35:12Z"
         },
         "optional": []
       },
@@ -156,6 +156,12 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_state": {
+          "strips": [
+            "output_pin LED"
+          ]
+        },
+        "light_button_pending": null,
         "selected": [],
         "strip": "output_pin LED"
       },
@@ -195,6 +201,110 @@
         "turbo_inner": 10.0,
         "turbo_outer": 50.0
       },
+      "panel_widgets": {
+        "home": {
+          "default": {
+            "hash": "15ad4cd8cb957f2b",
+            "signature": "medium|12|8||k1c|ams_is_tool_changer=0,ams_slot_count=0,filament_sensor_count=2,led_controllable=1|table=1"
+          },
+          "grid": "12x8",
+          "main_page_index": 0,
+          "next_page_id": 1,
+          "pages": [
+            {
+              "id": "main",
+              "widgets": [
+                {
+                  "col": 0,
+                  "colspan": 4,
+                  "enabled": true,
+                  "id": "printer_image",
+                  "row": 0,
+                  "rowspan": 4
+                },
+                {
+                  "col": 4,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "temperature",
+                  "row": 0,
+                  "rowspan": 2
+                },
+                {
+                  "col": 8,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "fan_stack",
+                  "row": 0,
+                  "rowspan": 2
+                },
+                {
+                  "col": 10,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "notifications",
+                  "row": 0,
+                  "rowspan": 2
+                },
+                {
+                  "col": 0,
+                  "colspan": 8,
+                  "config": {
+                    "layout_style": "detailed"
+                  },
+                  "enabled": true,
+                  "id": "print_status",
+                  "row": 4,
+                  "rowspan": 4
+                },
+                {
+                  "col": 8,
+                  "colspan": 4,
+                  "enabled": true,
+                  "id": "temp_graph",
+                  "row": 2,
+                  "rowspan": 6
+                },
+                {
+                  "col": 6,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "filament",
+                  "row": 2,
+                  "rowspan": 2
+                },
+                {
+                  "col": 4,
+                  "colspan": 2,
+                  "config": {
+                    "led": "output_pin LED"
+                  },
+                  "enabled": true,
+                  "id": "led",
+                  "row": 2,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 8,
+                  "enabled": false,
+                  "id": "tips",
+                  "row": -1,
+                  "rowspan": 4
+                },
+                {
+                  "col": 6,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "bed_temperature",
+                  "row": 0,
+                  "rowspan": 2
+                }
+              ]
+            }
+          ]
+        }
+      },
       "preset": "k1c",
       "temp_sensors": {
         "bed": "heater_bed",
@@ -202,7 +312,7 @@
         "hotend": "extruder"
       },
       "type": "Creality K1C",
-      "wizard_completed": false
+      "wizard_completed": true
     },
     "show_printer_switcher": false
   },
@@ -210,5 +320,6 @@
   "theme": {
     "preset": 0
   },
-  "wifi_country_last_seen": "GB"
+  "wifi_country_last_seen": "GB",
+  "wizard_completed": true
 }
