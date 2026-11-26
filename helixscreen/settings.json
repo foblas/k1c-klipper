@@ -72,6 +72,18 @@
         "timestamp": 1795709605,
         "total": 301,
         "window": 1
+      },
+      {
+        "heating": 249,
+        "phases": {
+          "BED_MESH": 126,
+          "CLEANING": 84,
+          "HOMING": 19
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795711849,
+        "total": 320,
+        "window": 1
       }
     ]
   },
@@ -358,10 +370,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2783964276313782
+        "heat_rate": 0.30782562494277954
       },
       "heater_bed": {
-        "heat_rate": 8.308937072753906
+        "heat_rate": 10.6311674118042
       }
     }
   },
