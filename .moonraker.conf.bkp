@@ -66,3 +66,5 @@ channel = stable
 repo = prestonbrown/helixscreen
 path = /usr/data/helixscreen
 
+[helix_print]
+
