@@ -96,6 +96,19 @@
         "timestamp": 1795715691,
         "total": 327,
         "window": 1
+      },
+      {
+        "heating": 36,
+        "phases": {
+          "BED_MESH": 222,
+          "CLEANING": 87,
+          "HOMING": 40
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1795719439,
+        "total": 350,
+        "window": 2
       }
     ]
   },
