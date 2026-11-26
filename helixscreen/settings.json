@@ -77,8 +77,8 @@
   "printers": {
     "default": {
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"xyzCalibration_cube_PETG_16m39s.gcode\",\"job_id\":\"00014E\",\"object_height\":20.0,\"start_time\":1795706505.356263}",
-        "outlines": "{\"filename\":\"xyzCalibration_cube_PETG_16m39s.gcode\",\"objects\":[]}"
+        "last_occupied": "",
+        "outlines": "{\"filename\":\"Calibration XYZ Cube_PETG_16m19s.gcode\",\"objects\":[]}"
       },
       "belt_tension": {
         "layout": 2
