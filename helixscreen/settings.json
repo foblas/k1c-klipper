@@ -41,6 +41,7 @@
       "valid": false
     }
   },
+  "language": "ru",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 1
