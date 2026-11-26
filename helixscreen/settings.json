@@ -47,6 +47,21 @@
   "motion": {
     "jog_mode": 1
   },
+  "print_start_history": {
+    "entries": [
+      {
+        "heating": 309,
+        "phases": {
+          "BED_MESH": 120,
+          "CLEANING": 95
+        },
+        "temp_bucket": 1,
+        "timestamp": 1795706829,
+        "total": 322,
+        "window": 1
+      }
+    ]
+  },
   "printers": {
     "default": {
       "bed_occupancy": {
@@ -325,6 +340,16 @@
   "telemetry_enabled": true,
   "theme": {
     "preset": 0
+  },
+  "thermal": {
+    "rates": {
+      "extruder": {
+        "heat_rate": 0.24702470004558563
+      },
+      "heater_bed": {
+        "heat_rate": 6.8307294845581055
+      }
+    }
   },
   "tour": {
     "completed": true,
